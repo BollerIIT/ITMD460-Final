@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Programmer: Thomas Boller -->
+<!-- Delta Gallery -->
+<!-- Date 11/11/2018 -->
+
+<head>
+  <meta charset="UTF-8">
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <script src="js/mySlide.js"></script>
+</head>
+
+<body id="gal-body">
+  <div class="topnav">
+    <div class="dropdown">
+      <a href="#menu" class="dropbtn"><img src="images/menu.png"/></a>
+      <div class="dropdown-content">
+	  <!-- these links are absolute to allow the professor to easily open files and view the site.  they would be relational for deployment -->
+        <a href="about.html">About</a>
+        <a href="social_media.html">Social Media</a>
+        <a href="concerts.html">Concerts</a>
+        <a href="music.html">Music</a>		
+      </div>
+    </div>	  
+    <div class="nav-container">
+<!--This div is a container for anything that might go in the nav bar -->
+
+    </div>
+    <a href="index.html">
+        <img src="images/delta_button.png" />
+    </a>	
+    <a onclick="history.back()">
+        <img src="images/back.png" />
+    </a>		
+</div>
+<body>
+
+<!-- Information about the photos-->
+<div class="header">
+  <h1>Delta Rae</h1>
+  <p>These photos show some or all of the members in many lights, they are from live shows, interviews, and photo shoots.</p>
+</div>
+
+<!-- The GRID -->
+<div class="row"> 
+  <div class="column">
+    <img src="images/dr_antique.jpg" style="width:100%">
+    <img src="images/dr_bowtie.jpg" style="width:100%">
+    <img src="images/dr_brick.jpg" style="width:100%">
+    <img src="images/dr_bw.jpg" style="width:100%">
+    <img src="images/dr_tree.jpg" style="width:100%">	
+  </div>
+  <div class="column">
+    <img src="images/dr_chain.jpg" style="width:100%">
+    <img src="images/dr_drum.jpg" style="width:100%">
+    <img src="images/dr_field.jpg" style="width:100%">
+    <img src="images/dr_hill.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="images/dr_grass.jpg" style="width:100%">
+    <img src="images/dr_revival.jpg" style="width:100%">	
+    <img src="images/dr_graveyard.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/dr_interview.jpeg" style="width:100%">
+    <img src="images/dr_jamming.jpg" style="width:100%">
+    <img src="images/dr_new_country.jpg" style="width:100%">
+    <img src="images/dr_onstage.jpg" style="width:100%">
+    <img src="images/dr_porch.jpg" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
